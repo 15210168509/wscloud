@@ -1,0 +1,1064 @@
+[2018-07-31 09:04:39,988] [2676] RunTime: 0.0001 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/System\\\/getSystemSetting\\\/companyId\\\/\\\/type\\\/20\\\/token\\\/null\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":0,\\\"msg\\\":\\\"token\\\\u8fc7\\\\u671f\\\",\\\"status_code\\\":2001}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 09:04:40,249] [2676] RunTime: 0.2609 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Admin\\\/getAdminMsgCount\\\/status\\\/10\\\/token\\\/null\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":0,\\\"msg\\\":\\\"token\\\\u8fc7\\\\u671f\\\",\\\"status_code\\\":2001}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 09:05:07,894] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/login\\\/login\\\/account\\\/13161934946\\\/password\\\/123456\\\/type\\\/10\\\/token\\\/null\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u767b\\\\u5f55\\\\u6210\\\\u529f\\\",\\\"status_code\\\":3000,\\\"data\\\":{\\\"company_id\\\":\\\"1447247968\\\",\\\"name\\\":\\\"\\\\u6d4b\\\\u8bd5\\\\u516c\\\\u53f8\\\",\\\"account\\\":\\\"13161934946\\\",\\\"phone\\\":\\\"13161934946\\\",\\\"email\\\":\\\"123456789@qq.com\\\",\\\"password\\\":\\\"e10adc3949ba59abbe56e057f20f883e\\\",\\\"right\\\":\\\"1,100,110,120,200,210,220,300,310,320,400,410,420,430,500,510,520,600,610,620,2,1000,1010\\\",\\\"status\\\":\\\"10\\\",\\\"type\\\":\\\"20\\\",\\\"create_time\\\":\\\"1527487964\\\",\\\"create_user\\\":\\\"2517844598\\\",\\\"update_time\\\":\\\"1528868703\\\",\\\"update_user\\\":\\\"2517844598\\\",\\\"del_flg\\\":\\\"0\\\",\\\"token\\\":\\\"b4ff68d02d44ad6741040f23875021d1\\\",\\\"refresh_token\\\":\\\"b4ff68d02d44ad6741040f23875021d1\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 09:05:08,068] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Company\\\/checkStatus\\\/companyId\\\/1447247968\\\/token\\\/b4ff68d02d44ad6741040f23875021d1\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6b63\\\\u5e38\\\",\\\"status_code\\\":1000,\\\"data\\\":{\\\"id\\\":\\\"1447247968\\\",\\\"name\\\":\\\"\\\\u6d4b\\\\u8bd5\\\\u516c\\\\u53f8\\\",\\\"phone\\\":\\\"13161934946\\\",\\\"email\\\":\\\"123456789@qq.com\\\",\\\"logo\\\":null,\\\"status\\\":\\\"10\\\",\\\"verify_status\\\":\\\"30\\\",\\\"create_time\\\":\\\"1527487964\\\",\\\"update_time\\\":\\\"1529992663\\\",\\\"create_user\\\":\\\"1447247968\\\",\\\"update_user\\\":\\\"1447247968\\\",\\\"del_flg\\\":\\\"0\\\",\\\"verify_status_str\\\":\\\"\\\\u5ba1\\\\u6838\\\\u901a\\\\u8fc7\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 09:05:08,304] [2676] RunTime: 0.2360 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/DrivingMonitor\\\/statBehavior\\\/companyId\\\/1447247968\\\/startTime\\\/1530407108\\\/endTime\\\/1532999108\\\/token\\\/b4ff68d02d44ad6741040f23875021d1\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":[{\\\"count\\\":\\\"10\\\",\\\"code\\\":\\\"16\\\",\\\"code_text\\\":\\\"\\\\u906e\\\\u6321\\\\u76f8\\\\u673a\\\"}]}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 09:05:08,430] [2676] RunTime: 0.3619 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/System\\\/getSystemSetting\\\/companyId\\\/1447247968\\\/type\\\/20\\\/token\\\/b4ff68d02d44ad6741040f23875021d1\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":{\\\"value\\\":\\\"1\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 09:05:08,501] [2676] RunTime: 0.4325 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Admin\\\/getAdminMsgCount\\\/status\\\/10\\\/token\\\/b4ff68d02d44ad6741040f23875021d1\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":\\\"0\\\"}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 09:05:09,229] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/DrivingMonitor\\\/statByTimeGroup\\\/companyId\\\/1447247968\\\/startTime\\\/1532707200\\\/endTime\\\/1533052800\\\/token\\\/b4ff68d02d44ad6741040f23875021d1\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":[]}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 09:05:24,184] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/DrivingMonitor\\\/statTiredNo\\\/companyId\\\/1447247968\\\/startTime\\\/1532966400\\\/token\\\/b4ff68d02d44ad6741040f23875021d1\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":{\\\"x\\\":[],\\\"y\\\":[],\\\"sum\\\":\\\"0000000\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 09:05:24,269] [2676] RunTime: 0.0853 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/System\\\/getSystemSetting\\\/companyId\\\/1447247968\\\/type\\\/20\\\/token\\\/b4ff68d02d44ad6741040f23875021d1\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":{\\\"value\\\":\\\"1\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 09:05:27,393] [2676] RunTime: 3.2093 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Admin\\\/getAdminMsgCount\\\/status\\\/10\\\/token\\\/b4ff68d02d44ad6741040f23875021d1\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":\\\"0\\\"}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 09:05:27,979] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/DrivingMonitor\\\/statTiredNo\\\/companyId\\\/1447247968\\\/startTime\\\/1532966400\\\/token\\\/b4ff68d02d44ad6741040f23875021d1\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":{\\\"x\\\":[],\\\"y\\\":[],\\\"sum\\\":\\\"0000000\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 09:05:28,122] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/DrivingMonitor\\\/showTiredType\\\/startTime\\\/1532966400\\\/endTime\\\/1532999127\\\/companyId\\\/1447247968\\\/token\\\/b4ff68d02d44ad6741040f23875021d1\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":0,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6570\\\\u636e\\\\u4e3a\\\\u7a7a\\\",\\\"status_code\\\":1001}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 09:05:28,445] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/GroupsService\\\/typeGroupsLists\\\/companyId\\\/1447247968\\\/type\\\/10\\\/token\\\/b4ff68d02d44ad6741040f23875021d1\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":{\\\"0\\\":{\\\"name\\\":\\\"\\\\u5168\\\\u90e8\\\\u8f66\\\\u8f86\\\",\\\"id\\\":\\\"null\\\",\\\"children\\\":[{\\\"id\\\":\\\"4118020736\\\",\\\"company_id\\\":\\\"1447247968\\\",\\\"device_no\\\":\\\"1234567\\\",\\\"device_id\\\":\\\"8647758674\\\",\\\"vehicle_no\\\":\\\"\\\\u5180F12345\\\",\\\"model\\\":\\\"\\\\u53cd\\\\u5bf9\\\\u6cd5\\\",\\\"status\\\":\\\"10\\\",\\\"create_time\\\":\\\"1532676758\\\",\\\"update_time\\\":\\\"1532676758\\\",\\\"create_user\\\":\\\"2517844598\\\",\\\"update_user\\\":\\\"2517844598\\\",\\\"del_flg\\\":\\\"0\\\",\\\"group_id\\\":\\\"null\\\",\\\"name\\\":\\\"<input id=\\\\\\\"input_null_4118020736\\\\\\\" data=\\\\\\\"1234567_\\\\u5180F12345\\\\\\\"  class=\\\\\\\"input_device\\\\\\\" type=\\\\\\\"checkbox\\\\\\\" style=\\\\\\\"vertical-align: middle; margin-top: 0px;margin-bottom: 1px;\\\\\\\"\\\\\\\/>\\\\u5180F12345\\\",\\\"position_info\\\":false},{\\\"id\\\":\\\"8167932515\\\",\\\"company_id\\\":\\\"1447247968\\\",\\\"device_no\\\":\\\"12456\\\",\\\"device_id\\\":\\\"7882128443\\\",\\\"vehicle_no\\\":\\\"\\\\u5180C1212\\\",\\\"model\\\":\\\"\\\\u6c7d\\\\u8f66\\\",\\\"status\\\":\\\"10\\\",\\\"create_time\\\":\\\"1528339180\\\",\\\"update_time\\\":\\\"1528339180\\\",\\\"create_user\\\":\\\"2517844598\\\",\\\"update_user\\\":\\\"2517844598\\\",\\\"del_flg\\\":\\\"0\\\",\\\"group_id\\\":\\\"null\\\",\\\"name\\\":\\\"<input id=\\\\\\\"input_null_8167932515\\\\\\\" data=\\\\\\\"12456_\\\\u5180C1212\\\\\\\"  class=\\\\\\\"input_device\\\\\\\" type=\\\\\\\"checkbox\\\\\\\" style=\\\\\\\"vertical-align: middle; margin-top: 0px;margin-bottom: 1px;\\\\\\\"\\\\\\\/>\\\\u5180C1212\\\",\\\"position_info\\\":false},{\\\"id\\\":\\\"9382192712\\\",\\\"company_id\\\":\\\"1447247968\\\",\\\"device_no\\\":\\\"12535\\\",\\\"device_id\\\":\\\"8606702515\\\",\\\"vehicle_no\\\":\\\"\\\\u5180B0121\\\",\\\"model\\\":\\\"\\\\u706b\\\\u8f66\\\",\\\"status\\\":\\\"10\\\",\\\"create_time\\\":\\\"1528338145\\\",\\\"update_time\\\":\\\"1528338145\\\",\\\"create_user\\\":\\\"2517844598\\\",\\\"update_user\\\":\\\"2517844598\\\",\\\"del_flg\\\":\\\"0\\\",\\\"group_id\\\":\\\"null\\\",\\\"name\\\":\\\"<input id=\\\\\\\"input_null_9382192712\\\\\\\" data=\\\\\\\"12535_\\\\u5180B0121\\\\\\\"  class=\\\\\\\"input_device\\\\\\\" type=\\\\\\\"checkbox\\\\\\\" style=\\\\\\\"vertical-align: middle; margin-top: 0px;margin-bottom: 1px;\\\\\\\"\\\\\\\/>\\\\u5180B0121\\\",\\\"position_info\\\":false},{\\\"id\\\":\\\"3112315772\\\",\\\"company_id\\\":\\\"1447247968\\\",\\\"device_no\\\":\\\"12535\\\",\\\"device_id\\\":\\\"8606702515\\\",\\\"vehicle_no\\\":\\\"\\\\u5180B0121\\\",\\\"model\\\":\\\"\\\\u706b\\\\u8f66\\\",\\\"status\\\":\\\"10\\\",\\\"create_time\\\":\\\"1528338132\\\",\\\"update_time\\\":\\\"1528338132\\\",\\\"create_user\\\":\\\"2517844598\\\",\\\"update_user\\\":\\\"2517844598\\\",\\\"del_flg\\\":\\\"0\\\",\\\"group_id\\\":\\\"null\\\",\\\"name\\\":\\\"<input id=\\\\\\\"input_null_3112315772\\\\\\\" data=\\\\\\\"12535_\\\\u5180B0121\\\\\\\"  class=\\\\\\\"input_device\\\\\\\" type=\\\\\\\"checkbox\\\\\\\" style=\\\\\\\"vertical-align: middle; margin-top: 0px;margin-bottom: 1px;\\\\\\\"\\\\\\\/>\\\\u5180B0121\\\",\\\"position_info\\\":false},{\\\"id\\\":\\\"9035124788\\\",\\\"company_id\\\":\\\"1447247968\\\",\\\"device_no\\\":\\\"12535\\\",\\\"device_id\\\":\\\"8606702515\\\",\\\"vehicle_no\\\":\\\"\\\\u5180A123456\\\",\\\"model\\\":\\\"\\\\u9a6c\\\\u8f66\\\",\\\"status\\\":\\\"10\\\",\\\"create_time\\\":\\\"1528338069\\\",\\\"update_time\\\":\\\"1528338069\\\",\\\"create_user\\\":\\\"2517844598\\\",\\\"update_user\\\":\\\"2517844598\\\",\\\"del_flg\\\":\\\"0\\\",\\\"group_id\\\":\\\"null\\\",\\\"name\\\":\\\"<input id=\\\\\\\"input_null_9035124788\\\\\\\" data=\\\\\\\"12535_\\\\u5180A123456\\\\\\\"  class=\\\\\\\"input_device\\\\\\\" type=\\\\\\\"checkbox\\\\\\\" style=\\\\\\\"vertical-align: middle; margin-top: 0px;margin-bottom: 1px;\\\\\\\"\\\\\\\/>\\\\u5180A123456\\\",\\\"position_info\\\":false},{\\\"id\\\":\\\"8516577529\\\",\\\"company_id\\\":\\\"1447247968\\\",\\\"device_no\\\":\\\"sn-number\\\",\\\"device_id\\\":\\\"7882128443\\\",\\\"vehicle_no\\\":\\\"\\\\u5180F123456\\\",\\\"model\\\":\\\"\\\\u5f00\\\\u8f66\\\",\\\"status\\\":\\\"10\\\",\\\"create_time\\\":\\\"1527488509\\\",\\\"update_time\\\":\\\"1527488509\\\",\\\"create_user\\\":\\\"2517844598\\\",\\\"update_user\\\":\\\"2517844598\\\",\\\"del_flg\\\":\\\"0\\\",\\\"group_id\\\":\\\"null\\\",\\\"name\\\":\\\"<input id=\\\\\\\"input_null_8516577529\\\\\\\" data=\\\\\\\"sn-number_\\\\u5180F123456\\\\\\\"  class=\\\\\\\"input_device\\\\\\\" type=\\\\\\\"checkbox\\\\\\\" style=\\\\\\\"vertical-align: middle; margin-top: 0px;margin-bottom: 1px;\\\\\\\"\\\\\\\/>\\\\u5180F123456\\\",\\\"position_info\\\":{\\\"gps_time\\\":\\\"1\\\",\\\"lng\\\":\\\"116.5988037109375\\\",\\\"lat\\\":\\\"39.92404378255208\\\",\\\"speed\\\":\\\"2\\\",\\\"course\\\":\\\"1\\\",\\\"device_no\\\":\\\"sn-number\\\",\\\"sys_time\\\":\\\"1527156402\\\",\\\"open_id\\\":\\\"OSnFTtlLlwYetY+AGOqHrcorWWhdA5C2xEox0Cl6P3fVwGLCQht0xobUpbP7prGT\\\",\\\"id\\\":\\\"3521521720\\\"}}]},\\\"3\\\":{\\\"id\\\":\\\"9582847534\\\",\\\"name\\\":\\\"\\\\u8f66\\\\u961f\\\\u4e00\\\",\\\"type\\\":\\\"10\\\",\\\"children\\\":[{\\\"id\\\":\\\"8516577529\\\",\\\"company_id\\\":\\\"1447247968\\\",\\\"device_no\\\":\\\"sn-number\\\",\\\"device_id\\\":\\\"7882128443\\\",\\\"vehicle_no\\\":\\\"\\\\u5180F123456\\\",\\\"model\\\":\\\"\\\\u5f00\\\\u8f66\\\",\\\"status\\\":\\\"10\\\",\\\"create_time\\\":\\\"1527488509\\\",\\\"update_time\\\":\\\"1527488509\\\",\\\"create_user\\\":\\\"2517844598\\\",\\\"update_user\\\":\\\"2517844598\\\",\\\"del_flg\\\":\\\"0\\\",\\\"group_id\\\":\\\"9582847534\\\",\\\"name\\\":\\\"<input id=\\\\\\\"input_9582847534_8516577529\\\\\\\" data=\\\\\\\"sn-number_\\\\u5180F123456\\\\\\\"  class=\\\\\\\"input_device\\\\\\\" type=\\\\\\\"checkbox\\\\\\\" style=\\\\\\\"vertical-align: middle; margin-top: 0px;margin-bottom: 1px;\\\\\\\"\\\\\\\/>\\\\u5180F123456\\\",\\\"position_info\\\":{\\\"gps_time\\\":\\\"1\\\",\\\"lng\\\":\\\"116.5988037109375\\\",\\\"lat\\\":\\\"39.92404378255208\\\",\\\"speed\\\":\\\"2\\\",\\\"course\\\":\\\"1\\\",\\\"device_no\\\":\\\"sn-number\\\",\\\"sys_time\\\":\\\"1527156402\\\",\\\"open_id\\\":\\\"OSnFTtlLlwYetY+AGOqHrcorWWhdA5C2xEox0Cl6P3fVwGLCQht0xobUpbP7prGT\\\",\\\"id\\\":\\\"3521521720\\\"}}]}}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 09:18:57,831] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Login\\\/logOut\\\/type\\\/10\\\/token\\\/b4ff68d02d44ad6741040f23875021d1\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u9000\\\\u51fa\\\\u6210\\\\u529f\\\",\\\"status_code\\\":3003}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 09:18:58,169] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/System\\\/getSystemSetting\\\/companyId\\\/\\\/type\\\/20\\\/token\\\/null\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":0,\\\"msg\\\":\\\"token\\\\u8fc7\\\\u671f\\\",\\\"status_code\\\":2001}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 09:18:58,400] [2676] RunTime: 0.2314 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Admin\\\/getAdminMsgCount\\\/status\\\/10\\\/token\\\/null\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":0,\\\"msg\\\":\\\"token\\\\u8fc7\\\\u671f\\\",\\\"status_code\\\":2001}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 09:19:06,316] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/login\\\/login\\\/account\\\/13161934946\\\/password\\\/123456\\\/type\\\/10\\\/token\\\/null\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u767b\\\\u5f55\\\\u6210\\\\u529f\\\",\\\"status_code\\\":3000,\\\"data\\\":{\\\"company_id\\\":\\\"1447247968\\\",\\\"name\\\":\\\"\\\\u6d4b\\\\u8bd5\\\\u516c\\\\u53f8\\\",\\\"account\\\":\\\"13161934946\\\",\\\"phone\\\":\\\"13161934946\\\",\\\"email\\\":\\\"123456789@qq.com\\\",\\\"password\\\":\\\"e10adc3949ba59abbe56e057f20f883e\\\",\\\"right\\\":\\\"1,100,110,120,200,210,220,300,310,320,400,410,420,430,500,510,520,600,610,620,700,710,2,1000,1010\\\",\\\"status\\\":\\\"10\\\",\\\"type\\\":\\\"20\\\",\\\"create_time\\\":\\\"1527487964\\\",\\\"create_user\\\":\\\"2517844598\\\",\\\"update_time\\\":\\\"1528868703\\\",\\\"update_user\\\":\\\"2517844598\\\",\\\"del_flg\\\":\\\"0\\\",\\\"token\\\":\\\"ffb70d630f559a27b752cbb1ec460a54\\\",\\\"refresh_token\\\":\\\"ffb70d630f559a27b752cbb1ec460a54\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 09:19:06,995] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Company\\\/checkStatus\\\/companyId\\\/1447247968\\\/token\\\/ffb70d630f559a27b752cbb1ec460a54\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6b63\\\\u5e38\\\",\\\"status_code\\\":1000,\\\"data\\\":{\\\"id\\\":\\\"1447247968\\\",\\\"name\\\":\\\"\\\\u6d4b\\\\u8bd5\\\\u516c\\\\u53f8\\\",\\\"phone\\\":\\\"13161934946\\\",\\\"email\\\":\\\"123456789@qq.com\\\",\\\"logo\\\":null,\\\"status\\\":\\\"10\\\",\\\"verify_status\\\":\\\"30\\\",\\\"create_time\\\":\\\"1527487964\\\",\\\"update_time\\\":\\\"1529992663\\\",\\\"create_user\\\":\\\"1447247968\\\",\\\"update_user\\\":\\\"1447247968\\\",\\\"del_flg\\\":\\\"0\\\",\\\"verify_status_str\\\":\\\"\\\\u5ba1\\\\u6838\\\\u901a\\\\u8fc7\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 09:19:07,542] [2676] RunTime: 0.5468 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/DrivingMonitor\\\/statBehavior\\\/companyId\\\/1447247968\\\/startTime\\\/1530407946\\\/endTime\\\/1532999946\\\/token\\\/ffb70d630f559a27b752cbb1ec460a54\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":[{\\\"count\\\":\\\"10\\\",\\\"code\\\":\\\"16\\\",\\\"code_text\\\":\\\"\\\\u906e\\\\u6321\\\\u76f8\\\\u673a\\\"}]}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 09:19:07,745] [2676] RunTime: 0.7502 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/System\\\/getSystemSetting\\\/companyId\\\/1447247968\\\/type\\\/20\\\/token\\\/ffb70d630f559a27b752cbb1ec460a54\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":{\\\"value\\\":\\\"1\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 09:19:08,083] [2676] RunTime: 1.0883 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Admin\\\/getAdminMsgCount\\\/status\\\/10\\\/token\\\/ffb70d630f559a27b752cbb1ec460a54\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":\\\"0\\\"}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 09:19:08,739] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/DrivingMonitor\\\/statByTimeGroup\\\/companyId\\\/1447247968\\\/startTime\\\/1532707200\\\/endTime\\\/1533052800\\\/token\\\/ffb70d630f559a27b752cbb1ec460a54\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":[]}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 09:19:10,205] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/System\\\/getSystemSetting\\\/companyId\\\/1447247968\\\/type\\\/20\\\/token\\\/ffb70d630f559a27b752cbb1ec460a54\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":{\\\"value\\\":\\\"1\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 09:19:10,480] [2676] RunTime: 0.2743 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Admin\\\/getAdminMsgCount\\\/status\\\/10\\\/token\\\/ffb70d630f559a27b752cbb1ec460a54\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":\\\"0\\\"}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 09:19:34,409] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/System\\\/getSystemSetting\\\/companyId\\\/1447247968\\\/type\\\/20\\\/token\\\/ffb70d630f559a27b752cbb1ec460a54\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":{\\\"value\\\":\\\"1\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 09:19:34,582] [2676] RunTime: 0.1728 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Admin\\\/getAdminMsgCount\\\/status\\\/10\\\/token\\\/ffb70d630f559a27b752cbb1ec460a54\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":\\\"0\\\"}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 09:22:33,968] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/System\\\/getSystemSetting\\\/companyId\\\/1447247968\\\/type\\\/20\\\/token\\\/ffb70d630f559a27b752cbb1ec460a54\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":{\\\"value\\\":\\\"1\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 09:22:34,033] [2676] RunTime: 0.0646 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Admin\\\/getAdminMsgCount\\\/status\\\/10\\\/token\\\/ffb70d630f559a27b752cbb1ec460a54\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":\\\"0\\\"}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 09:29:21,587] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/System\\\/getSystemSetting\\\/companyId\\\/1447247968\\\/type\\\/20\\\/token\\\/ffb70d630f559a27b752cbb1ec460a54\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":{\\\"value\\\":\\\"1\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 09:29:21,674] [2676] RunTime: 0.0872 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Admin\\\/getAdminMsgCount\\\/status\\\/10\\\/token\\\/ffb70d630f559a27b752cbb1ec460a54\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":\\\"0\\\"}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 09:33:06,808] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/System\\\/getSystemSetting\\\/companyId\\\/1447247968\\\/type\\\/20\\\/token\\\/ffb70d630f559a27b752cbb1ec460a54\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":{\\\"value\\\":\\\"1\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 09:33:06,927] [2676] RunTime: 0.1193 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Admin\\\/getAdminMsgCount\\\/status\\\/10\\\/token\\\/ffb70d630f559a27b752cbb1ec460a54\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":\\\"0\\\"}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 09:33:43,173] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/System\\\/getSystemSetting\\\/companyId\\\/1447247968\\\/type\\\/20\\\/token\\\/ffb70d630f559a27b752cbb1ec460a54\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":{\\\"value\\\":\\\"1\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 09:33:43,256] [2676] RunTime: 0.0834 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Admin\\\/getAdminMsgCount\\\/status\\\/10\\\/token\\\/ffb70d630f559a27b752cbb1ec460a54\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":\\\"0\\\"}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 09:33:51,728] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/System\\\/getSystemSetting\\\/companyId\\\/1447247968\\\/type\\\/20\\\/token\\\/ffb70d630f559a27b752cbb1ec460a54\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":{\\\"value\\\":\\\"1\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 09:33:51,802] [2676] RunTime: 0.0738 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Admin\\\/getAdminMsgCount\\\/status\\\/10\\\/token\\\/ffb70d630f559a27b752cbb1ec460a54\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":\\\"0\\\"}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 09:34:01,743] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/System\\\/getSystemSetting\\\/companyId\\\/1447247968\\\/type\\\/20\\\/token\\\/ffb70d630f559a27b752cbb1ec460a54\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":{\\\"value\\\":\\\"1\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 09:34:01,825] [2676] RunTime: 0.0823 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Admin\\\/getAdminMsgCount\\\/status\\\/10\\\/token\\\/ffb70d630f559a27b752cbb1ec460a54\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":\\\"0\\\"}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 09:34:35,860] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/System\\\/getSystemSetting\\\/companyId\\\/1447247968\\\/type\\\/20\\\/token\\\/ffb70d630f559a27b752cbb1ec460a54\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":{\\\"value\\\":\\\"1\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 09:34:35,939] [2676] RunTime: 0.0792 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Admin\\\/getAdminMsgCount\\\/status\\\/10\\\/token\\\/ffb70d630f559a27b752cbb1ec460a54\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":\\\"0\\\"}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 09:34:50,583] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/System\\\/getSystemSetting\\\/companyId\\\/1447247968\\\/type\\\/20\\\/token\\\/ffb70d630f559a27b752cbb1ec460a54\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":{\\\"value\\\":\\\"1\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 09:34:50,665] [2676] RunTime: 0.0818 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Admin\\\/getAdminMsgCount\\\/status\\\/10\\\/token\\\/ffb70d630f559a27b752cbb1ec460a54\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":\\\"0\\\"}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 09:38:23,049] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/System\\\/getSystemSetting\\\/companyId\\\/1447247968\\\/type\\\/20\\\/token\\\/ffb70d630f559a27b752cbb1ec460a54\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":{\\\"value\\\":\\\"1\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 09:38:23,330] [2676] RunTime: 0.2806 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Admin\\\/getAdminMsgCount\\\/status\\\/10\\\/token\\\/ffb70d630f559a27b752cbb1ec460a54\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":\\\"0\\\"}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 09:38:27,236] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/System\\\/getSystemSetting\\\/companyId\\\/1447247968\\\/type\\\/20\\\/token\\\/ffb70d630f559a27b752cbb1ec460a54\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":{\\\"value\\\":\\\"1\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 09:38:27,430] [2676] RunTime: 0.1943 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Admin\\\/getAdminMsgCount\\\/status\\\/10\\\/token\\\/ffb70d630f559a27b752cbb1ec460a54\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":\\\"0\\\"}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 09:38:28,008] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/DriverService\\\/driverLists\\\/name\\\/null\\\/status\\\/null\\\/phone\\\/null\\\/companyId\\\/1447247968\\\/account\\\/null\\\/pageSize\\\/10\\\/pageNo\\\/1\\\/token\\\/ffb70d630f559a27b752cbb1ec460a54\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6b63\\\\u5e38\\\",\\\"status_code\\\":1000,\\\"data\\\":{\\\"dataList\\\":[{\\\"id\\\":\\\"2651475906\\\",\\\"company_id\\\":\\\"1447247968\\\",\\\"name\\\":\\\"\\\\u674e\\\\u6587\\\\u7426\\\",\\\"sex\\\":\\\"1\\\",\\\"phone\\\":\\\"13200000001\\\",\\\"account\\\":\\\"wenqi1\\\",\\\"password\\\":\\\"e10adc3949ba59abbe56e057f20f883e\\\",\\\"ws_open_id\\\":\\\"LCbWs6L99f3ITUccnGX8\\\\\\\/eP0blamr8M1BLqN4wmDtwCSAgf3t+FHbRTCGVxR9SGC\\\",\\\"certification_code\\\":\\\"130625199205153456\\\",\\\"certification_expire_time\\\":\\\"2018-07-27\\\",\\\"driving_age\\\":\\\"2\\\",\\\"status\\\":\\\"10\\\",\\\"create_time\\\":\\\"2018-07-27 15:28:55\\\",\\\"update_time\\\":\\\"1532676535\\\",\\\"create_user\\\":\\\"2517844598\\\",\\\"update_user\\\":\\\"2517844598\\\",\\\"del_flg\\\":\\\"0\\\",\\\"status_name\\\":\\\"\\\\u6b63\\\\u5e38\\\",\\\"sex_name\\\":\\\"\\\\u7537\\\"},{\\\"id\\\":\\\"7123652757\\\",\\\"company_id\\\":\\\"1447247968\\\",\\\"name\\\":\\\"\\\\u674e\\\\u6587\\\\u7426\\\",\\\"sex\\\":\\\"1\\\",\\\"phone\\\":\\\"13200000000\\\",\\\"account\\\":\\\"wenqi\\\",\\\"password\\\":\\\"e10adc3949ba59abbe56e057f20f883e\\\",\\\"ws_open_id\\\":\\\"H\\\\\\\/cWkcBz7XmjXRKLyKuSlkKWIuutVZSc3zxWDWvlBXyV58Rv1V8pmJkeFAo\\\\\\\/BF1S\\\",\\\"certification_code\\\":\\\"130625199205153456\\\",\\\"certification_expire_time\\\":\\\"2018-07-27\\\",\\\"driving_age\\\":\\\"2\\\",\\\"status\\\":\\\"10\\\",\\\"create_time\\\":\\\"2018-07-27 15:24:05\\\",\\\"update_time\\\":\\\"1532676245\\\",\\\"create_user\\\":\\\"2517844598\\\",\\\"update_user\\\":\\\"2517844598\\\",\\\"del_flg\\\":\\\"0\\\",\\\"status_name\\\":\\\"\\\\u6b63\\\\u5e38\\\",\\\"sex_name\\\":\\\"\\\\u7537\\\"},{\\\"id\\\":\\\"3630441951\\\",\\\"company_id\\\":\\\"1447247968\\\",\\\"name\\\":\\\"\\\\u82cf\\\\u658c\\\",\\\"sex\\\":\\\"1\\\",\\\"phone\\\":\\\"13161934946\\\",\\\"account\\\":\\\"account\\\",\\\"password\\\":\\\"e10adc3949ba59abbe56e057f20f883e\\\",\\\"ws_open_id\\\":\\\"\\\\\\\/4kuEdp3errRSrfkM3HiKf17NgRVpwliTpbwFge6WM2HBWKM7DzrvYaKKWMlUuCB\\\",\\\"certification_code\\\":\\\"412722198901207377\\\",\\\"certification_expire_time\\\":\\\"2018-06-12\\\",\\\"driving_age\\\":\\\"2\\\",\\\"status\\\":\\\"10\\\",\\\"create_time\\\":\\\"2018-06-11 13:25:40\\\",\\\"update_time\\\":\\\"1528694740\\\",\\\"create_user\\\":\\\"1518614752\\\",\\\"update_user\\\":\\\"1518614752\\\",\\\"del_flg\\\":\\\"0\\\",\\\"status_name\\\":\\\"\\\\u6b63\\\\u5e38\\\",\\\"sex_name\\\":\\\"\\\\u7537\\\"},{\\\"id\\\":\\\"4981385218\\\",\\\"company_id\\\":\\\"1447247968\\\",\\\"name\\\":\\\"\\\\u674e\\\\u6587\\\",\\\"sex\\\":\\\"1\\\",\\\"phone\\\":\\\"13373944333\\\",\\\"account\\\":\\\"lwq1\\\",\\\"password\\\":\\\"e10adc3949ba59abbe56e057f20f883e\\\",\\\"ws_open_id\\\":\\\"TofEMkxYZHuA3TPq7ovRwiKD0RIxaaGrtOEE9emYfFAP6+vMpPCyv77UlzAzkrxI\\\",\\\"certification_code\\\":\\\"412722198901203737\\\",\\\"certification_expire_time\\\":\\\"2018-05-29\\\",\\\"driving_age\\\":\\\"2\\\",\\\"status\\\":\\\"10\\\",\\\"create_time\\\":\\\"2018-05-29 16:26:23\\\",\\\"update_time\\\":\\\"1527582383\\\",\\\"create_user\\\":\\\"1518614752\\\",\\\"update_user\\\":\\\"1518614752\\\",\\\"del_flg\\\":\\\"0\\\",\\\"status_name\\\":\\\"\\\\u6b63\\\\u5e38\\\",\\\"sex_name\\\":\\\"\\\\u7537\\\"},{\\\"id\\\":\\\"3615201082\\\",\\\"company_id\\\":\\\"1447247968\\\",\\\"name\\\":\\\"\\\\u674e\\\\u6587\\\\u7426\\\",\\\"sex\\\":\\\"1\\\",\\\"phone\\\":\\\"13373944332\\\",\\\"account\\\":\\\"lwq\\\",\\\"password\\\":\\\"e10adc3949ba59abbe56e057f20f883e\\\",\\\"ws_open_id\\\":\\\"TN\\\\\\\/8RsJq6LDOpUUeomFJFvkatoq+dNeo97G0XmV5ucU3foyb+x4\\\\\\\/1cF8CR99NZYl\\\",\\\"certification_code\\\":\\\"412722198901203737\\\",\\\"certification_expire_time\\\":\\\"2018-05-28\\\",\\\"driving_age\\\":\\\"2\\\",\\\"status\\\":\\\"10\\\",\\\"create_time\\\":\\\"2018-05-28 18:26:23\\\",\\\"update_time\\\":\\\"1527503183\\\",\\\"create_user\\\":\\\"1518614752\\\",\\\"update_user\\\":\\\"1518614752\\\",\\\"del_flg\\\":\\\"0\\\",\\\"status_name\\\":\\\"\\\\u6b63\\\\u5e38\\\",\\\"sex_name\\\":\\\"\\\\u7537\\\"}],\\\"totalRecord\\\":\\\"5\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 09:45:43,684] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/System\\\/getSystemSetting\\\/companyId\\\/1447247968\\\/type\\\/20\\\/token\\\/ffb70d630f559a27b752cbb1ec460a54\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":{\\\"value\\\":\\\"1\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 09:45:43,904] [2676] RunTime: 0.2194 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Admin\\\/getAdminMsgCount\\\/status\\\/10\\\/token\\\/ffb70d630f559a27b752cbb1ec460a54\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":\\\"0\\\"}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 09:48:19,212] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/System\\\/getSystemSetting\\\/companyId\\\/1447247968\\\/type\\\/20\\\/token\\\/ffb70d630f559a27b752cbb1ec460a54\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":{\\\"value\\\":\\\"1\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 09:48:19,401] [2676] RunTime: 0.1897 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Admin\\\/getAdminMsgCount\\\/status\\\/10\\\/token\\\/ffb70d630f559a27b752cbb1ec460a54\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":\\\"0\\\"}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 09:50:43,183] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/System\\\/getSystemSetting\\\/companyId\\\/1447247968\\\/type\\\/20\\\/token\\\/ffb70d630f559a27b752cbb1ec460a54\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":{\\\"value\\\":\\\"1\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 09:50:43,376] [2676] RunTime: 0.1940 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Admin\\\/getAdminMsgCount\\\/status\\\/10\\\/token\\\/ffb70d630f559a27b752cbb1ec460a54\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":\\\"0\\\"}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 09:52:07,428] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/System\\\/getSystemSetting\\\/companyId\\\/1447247968\\\/type\\\/20\\\/token\\\/ffb70d630f559a27b752cbb1ec460a54\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":{\\\"value\\\":\\\"1\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 09:52:07,564] [2676] RunTime: 0.1364 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Admin\\\/getAdminMsgCount\\\/status\\\/10\\\/token\\\/ffb70d630f559a27b752cbb1ec460a54\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":\\\"0\\\"}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 10:10:12,095] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/System\\\/getSystemSetting\\\/companyId\\\/1447247968\\\/type\\\/20\\\/token\\\/ffb70d630f559a27b752cbb1ec460a54\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":{\\\"value\\\":\\\"1\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 10:10:12,185] [2676] RunTime: 0.0904 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Admin\\\/getAdminMsgCount\\\/status\\\/10\\\/token\\\/ffb70d630f559a27b752cbb1ec460a54\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":\\\"0\\\"}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 10:11:07,656] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/System\\\/getSystemSetting\\\/companyId\\\/1447247968\\\/type\\\/20\\\/token\\\/ffb70d630f559a27b752cbb1ec460a54\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":{\\\"value\\\":\\\"1\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 10:11:09,024] [2676] RunTime: 1.3678 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Admin\\\/getAdminMsgCount\\\/status\\\/10\\\/token\\\/ffb70d630f559a27b752cbb1ec460a54\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":\\\"0\\\"}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 10:11:13,983] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/System\\\/getSystemSetting\\\/companyId\\\/1447247968\\\/type\\\/20\\\/token\\\/ffb70d630f559a27b752cbb1ec460a54\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":{\\\"value\\\":\\\"1\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 10:11:26,360] [2676] RunTime: 12.3772 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Admin\\\/getAdminMsgCount\\\/status\\\/10\\\/token\\\/ffb70d630f559a27b752cbb1ec460a54\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":\\\"0\\\"}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 10:13:29,937] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/System\\\/getSystemSetting\\\/companyId\\\/1447247968\\\/type\\\/20\\\/token\\\/ffb70d630f559a27b752cbb1ec460a54\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":{\\\"value\\\":\\\"1\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 10:13:29,999] [2676] RunTime: 0.0620 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Admin\\\/getAdminMsgCount\\\/status\\\/10\\\/token\\\/ffb70d630f559a27b752cbb1ec460a54\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":\\\"0\\\"}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 10:13:34,146] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/System\\\/getSystemSetting\\\/companyId\\\/1447247968\\\/type\\\/20\\\/token\\\/ffb70d630f559a27b752cbb1ec460a54\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":{\\\"value\\\":\\\"1\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 10:13:34,246] [2676] RunTime: 0.0999 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Admin\\\/getAdminMsgCount\\\/status\\\/10\\\/token\\\/ffb70d630f559a27b752cbb1ec460a54\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":\\\"0\\\"}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 10:13:58,867] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/System\\\/getSystemSetting\\\/companyId\\\/1447247968\\\/type\\\/20\\\/token\\\/ffb70d630f559a27b752cbb1ec460a54\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":{\\\"value\\\":\\\"1\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 10:13:58,939] [2676] RunTime: 0.0719 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Admin\\\/getAdminMsgCount\\\/status\\\/10\\\/token\\\/ffb70d630f559a27b752cbb1ec460a54\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":\\\"0\\\"}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 10:14:44,376] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/System\\\/getSystemSetting\\\/companyId\\\/1447247968\\\/type\\\/20\\\/token\\\/ffb70d630f559a27b752cbb1ec460a54\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":{\\\"value\\\":\\\"1\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 10:14:44,587] [2676] RunTime: 0.2114 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Admin\\\/getAdminMsgCount\\\/status\\\/10\\\/token\\\/ffb70d630f559a27b752cbb1ec460a54\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":\\\"0\\\"}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 10:15:52,854] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/System\\\/getSystemSetting\\\/companyId\\\/1447247968\\\/type\\\/20\\\/token\\\/ffb70d630f559a27b752cbb1ec460a54\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":{\\\"value\\\":\\\"1\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 10:15:53,438] [2676] RunTime: 0.5842 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Admin\\\/getAdminMsgCount\\\/status\\\/10\\\/token\\\/ffb70d630f559a27b752cbb1ec460a54\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":\\\"0\\\"}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 10:16:23,605] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/System\\\/getSystemSetting\\\/companyId\\\/1447247968\\\/type\\\/20\\\/token\\\/ffb70d630f559a27b752cbb1ec460a54\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":{\\\"value\\\":\\\"1\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 10:16:23,727] [2676] RunTime: 0.1218 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Admin\\\/getAdminMsgCount\\\/status\\\/10\\\/token\\\/ffb70d630f559a27b752cbb1ec460a54\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":\\\"0\\\"}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 10:36:51,495] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/System\\\/getSystemSetting\\\/companyId\\\/1447247968\\\/type\\\/20\\\/token\\\/ffb70d630f559a27b752cbb1ec460a54\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":{\\\"value\\\":\\\"1\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 10:36:51,609] [2676] RunTime: 0.1136 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Admin\\\/getAdminMsgCount\\\/status\\\/10\\\/token\\\/ffb70d630f559a27b752cbb1ec460a54\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":\\\"0\\\"}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 11:47:24,180] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/System\\\/getSystemSetting\\\/companyId\\\/1447247968\\\/type\\\/20\\\/token\\\/ffb70d630f559a27b752cbb1ec460a54\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":0,\\\"msg\\\":\\\"token\\\\u8fc7\\\\u671f\\\",\\\"status_code\\\":2001}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 11:47:24,560] [2676] RunTime: 0.3800 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Login\\\/refreshToken\\\/refreshToken\\\/ffb70d630f559a27b752cbb1ec460a54\\\/token\\\/ffb70d630f559a27b752cbb1ec460a54\\\/type\\\/10\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"token\\\\u5237\\\\u65b0\\\\u6210\\\\u529f\\\",\\\"status_code\\\":2002,\\\"data\\\":{\\\"token\\\":\\\"703d4a6805b7863e24f9e7082413a15a\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 11:47:24,708] [2676] RunTime: 0.5276 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/System\\\/getSystemSetting\\\/companyId\\\/1447247968\\\/type\\\/20\\\/token\\\/703d4a6805b7863e24f9e7082413a15a\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":{\\\"value\\\":\\\"1\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 11:47:24,795] [2676] RunTime: 0.6144 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Admin\\\/getAdminMsgCount\\\/status\\\/10\\\/token\\\/703d4a6805b7863e24f9e7082413a15a\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":\\\"0\\\"}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 13:19:47,361] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/System\\\/getSystemSetting\\\/companyId\\\/1447247968\\\/type\\\/20\\\/token\\\/703d4a6805b7863e24f9e7082413a15a\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":{\\\"value\\\":\\\"1\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 13:19:47,461] [2676] RunTime: 0.0994 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Admin\\\/getAdminMsgCount\\\/status\\\/10\\\/token\\\/703d4a6805b7863e24f9e7082413a15a\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":\\\"0\\\"}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 13:23:44,425] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/System\\\/getSystemSetting\\\/companyId\\\/1447247968\\\/type\\\/20\\\/token\\\/703d4a6805b7863e24f9e7082413a15a\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":{\\\"value\\\":\\\"1\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 13:23:44,511] [2676] RunTime: 0.0862 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Admin\\\/getAdminMsgCount\\\/status\\\/10\\\/token\\\/703d4a6805b7863e24f9e7082413a15a\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":\\\"0\\\"}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 13:25:48,239] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/System\\\/getSystemSetting\\\/companyId\\\/1447247968\\\/type\\\/20\\\/token\\\/703d4a6805b7863e24f9e7082413a15a\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":{\\\"value\\\":\\\"1\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 13:25:48,323] [2676] RunTime: 0.0842 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Admin\\\/getAdminMsgCount\\\/status\\\/10\\\/token\\\/703d4a6805b7863e24f9e7082413a15a\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":\\\"0\\\"}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 13:28:04,068] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/System\\\/getSystemSetting\\\/companyId\\\/1447247968\\\/type\\\/20\\\/token\\\/703d4a6805b7863e24f9e7082413a15a\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":{\\\"value\\\":\\\"1\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 13:28:04,142] [2676] RunTime: 0.0736 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Admin\\\/getAdminMsgCount\\\/status\\\/10\\\/token\\\/703d4a6805b7863e24f9e7082413a15a\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":\\\"0\\\"}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 13:29:54,837] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/System\\\/getSystemSetting\\\/companyId\\\/1447247968\\\/type\\\/20\\\/token\\\/703d4a6805b7863e24f9e7082413a15a\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":{\\\"value\\\":\\\"1\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 13:29:54,921] [2676] RunTime: 0.0840 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Admin\\\/getAdminMsgCount\\\/status\\\/10\\\/token\\\/703d4a6805b7863e24f9e7082413a15a\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":\\\"0\\\"}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 13:32:42,993] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/System\\\/getSystemSetting\\\/companyId\\\/1447247968\\\/type\\\/20\\\/token\\\/703d4a6805b7863e24f9e7082413a15a\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":{\\\"value\\\":\\\"1\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 13:32:43,093] [2676] RunTime: 0.1001 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Admin\\\/getAdminMsgCount\\\/status\\\/10\\\/token\\\/703d4a6805b7863e24f9e7082413a15a\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":\\\"0\\\"}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 13:45:37,604] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/System\\\/getSystemSetting\\\/companyId\\\/1447247968\\\/type\\\/20\\\/token\\\/703d4a6805b7863e24f9e7082413a15a\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":{\\\"value\\\":\\\"1\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 13:45:37,674] [2676] RunTime: 0.0699 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Admin\\\/getAdminMsgCount\\\/status\\\/10\\\/token\\\/703d4a6805b7863e24f9e7082413a15a\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":\\\"0\\\"}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 13:53:24,152] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/System\\\/getSystemSetting\\\/companyId\\\/1447247968\\\/type\\\/20\\\/token\\\/703d4a6805b7863e24f9e7082413a15a\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":0,\\\"msg\\\":\\\"token\\\\u8fc7\\\\u671f\\\",\\\"status_code\\\":2001}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 13:53:24,286] [2676] RunTime: 0.1340 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Login\\\/refreshToken\\\/refreshToken\\\/ffb70d630f559a27b752cbb1ec460a54\\\/token\\\/703d4a6805b7863e24f9e7082413a15a\\\/type\\\/10\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"token\\\\u5237\\\\u65b0\\\\u6210\\\\u529f\\\",\\\"status_code\\\":2002,\\\"data\\\":{\\\"token\\\":\\\"168beaa4bc0d74232023a2152fe3516e\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 13:53:24,387] [2676] RunTime: 0.2349 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/System\\\/getSystemSetting\\\/companyId\\\/1447247968\\\/type\\\/20\\\/token\\\/168beaa4bc0d74232023a2152fe3516e\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":{\\\"value\\\":\\\"1\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 13:53:24,470] [2676] RunTime: 0.3175 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Admin\\\/getAdminMsgCount\\\/status\\\/10\\\/token\\\/168beaa4bc0d74232023a2152fe3516e\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":\\\"0\\\"}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 14:16:09,227] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/System\\\/getSystemSetting\\\/companyId\\\/1447247968\\\/type\\\/20\\\/token\\\/168beaa4bc0d74232023a2152fe3516e\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":{\\\"value\\\":\\\"1\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 14:16:09,317] [2676] RunTime: 0.0904 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Admin\\\/getAdminMsgCount\\\/status\\\/10\\\/token\\\/168beaa4bc0d74232023a2152fe3516e\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":\\\"0\\\"}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 14:16:43,690] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/System\\\/getSystemSetting\\\/companyId\\\/1447247968\\\/type\\\/20\\\/token\\\/168beaa4bc0d74232023a2152fe3516e\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":{\\\"value\\\":\\\"1\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 14:16:43,782] [2676] RunTime: 0.0917 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Admin\\\/getAdminMsgCount\\\/status\\\/10\\\/token\\\/168beaa4bc0d74232023a2152fe3516e\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":\\\"0\\\"}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 14:17:56,486] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/System\\\/getSystemSetting\\\/companyId\\\/1447247968\\\/type\\\/20\\\/token\\\/168beaa4bc0d74232023a2152fe3516e\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":{\\\"value\\\":\\\"1\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 14:17:56,593] [2676] RunTime: 0.1067 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Admin\\\/getAdminMsgCount\\\/status\\\/10\\\/token\\\/168beaa4bc0d74232023a2152fe3516e\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":\\\"0\\\"}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 14:18:27,421] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/System\\\/getSystemSetting\\\/companyId\\\/1447247968\\\/type\\\/20\\\/token\\\/168beaa4bc0d74232023a2152fe3516e\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":{\\\"value\\\":\\\"1\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 14:18:27,570] [2676] RunTime: 0.1487 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Admin\\\/getAdminMsgCount\\\/status\\\/10\\\/token\\\/168beaa4bc0d74232023a2152fe3516e\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":\\\"0\\\"}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 14:18:58,989] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/System\\\/getSystemSetting\\\/companyId\\\/1447247968\\\/type\\\/20\\\/token\\\/168beaa4bc0d74232023a2152fe3516e\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":{\\\"value\\\":\\\"1\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 14:18:59,058] [2676] RunTime: 0.0689 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Admin\\\/getAdminMsgCount\\\/status\\\/10\\\/token\\\/168beaa4bc0d74232023a2152fe3516e\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":\\\"0\\\"}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 14:19:24,359] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/System\\\/getSystemSetting\\\/companyId\\\/1447247968\\\/type\\\/20\\\/token\\\/168beaa4bc0d74232023a2152fe3516e\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":{\\\"value\\\":\\\"1\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 14:19:24,464] [2676] RunTime: 0.1056 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Admin\\\/getAdminMsgCount\\\/status\\\/10\\\/token\\\/168beaa4bc0d74232023a2152fe3516e\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":\\\"0\\\"}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 14:19:28,008] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/System\\\/getSystemSetting\\\/companyId\\\/1447247968\\\/type\\\/20\\\/token\\\/168beaa4bc0d74232023a2152fe3516e\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":{\\\"value\\\":\\\"1\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 14:19:28,110] [2676] RunTime: 0.1025 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Admin\\\/getAdminMsgCount\\\/status\\\/10\\\/token\\\/168beaa4bc0d74232023a2152fe3516e\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":\\\"0\\\"}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 14:19:44,753] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/System\\\/getSystemSetting\\\/companyId\\\/1447247968\\\/type\\\/20\\\/token\\\/168beaa4bc0d74232023a2152fe3516e\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":{\\\"value\\\":\\\"1\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 14:19:44,834] [2676] RunTime: 0.0809 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Admin\\\/getAdminMsgCount\\\/status\\\/10\\\/token\\\/168beaa4bc0d74232023a2152fe3516e\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":\\\"0\\\"}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 14:20:23,123] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/System\\\/getSystemSetting\\\/companyId\\\/1447247968\\\/type\\\/20\\\/token\\\/168beaa4bc0d74232023a2152fe3516e\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":{\\\"value\\\":\\\"1\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 14:20:23,222] [2676] RunTime: 0.0990 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Admin\\\/getAdminMsgCount\\\/status\\\/10\\\/token\\\/168beaa4bc0d74232023a2152fe3516e\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":\\\"0\\\"}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 14:20:37,480] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/System\\\/getSystemSetting\\\/companyId\\\/1447247968\\\/type\\\/20\\\/token\\\/168beaa4bc0d74232023a2152fe3516e\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":{\\\"value\\\":\\\"1\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 14:20:37,571] [2676] RunTime: 0.0911 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Admin\\\/getAdminMsgCount\\\/status\\\/10\\\/token\\\/168beaa4bc0d74232023a2152fe3516e\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":\\\"0\\\"}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 14:50:03,095] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/System\\\/getSystemSetting\\\/companyId\\\/1447247968\\\/type\\\/20\\\/token\\\/168beaa4bc0d74232023a2152fe3516e\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":{\\\"value\\\":\\\"1\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 14:50:03,274] [2676] RunTime: 0.1786 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Admin\\\/getAdminMsgCount\\\/status\\\/10\\\/token\\\/168beaa4bc0d74232023a2152fe3516e\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":\\\"0\\\"}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 14:53:48,682] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/System\\\/getSystemSetting\\\/companyId\\\/1447247968\\\/type\\\/20\\\/token\\\/168beaa4bc0d74232023a2152fe3516e\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":{\\\"value\\\":\\\"1\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 14:53:48,752] [2676] RunTime: 0.0696 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Admin\\\/getAdminMsgCount\\\/status\\\/10\\\/token\\\/168beaa4bc0d74232023a2152fe3516e\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":\\\"0\\\"}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 15:43:27,416] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/System\\\/getSystemSetting\\\/companyId\\\/1447247968\\\/type\\\/20\\\/token\\\/168beaa4bc0d74232023a2152fe3516e\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":{\\\"value\\\":\\\"1\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 15:43:27,603] [2676] RunTime: 0.1868 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Admin\\\/getAdminMsgCount\\\/status\\\/10\\\/token\\\/168beaa4bc0d74232023a2152fe3516e\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":\\\"0\\\"}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 15:44:06,206] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/System\\\/getSystemSetting\\\/companyId\\\/1447247968\\\/type\\\/20\\\/token\\\/168beaa4bc0d74232023a2152fe3516e\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":{\\\"value\\\":\\\"1\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 15:44:06,286] [2676] RunTime: 0.0794 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Admin\\\/getAdminMsgCount\\\/status\\\/10\\\/token\\\/168beaa4bc0d74232023a2152fe3516e\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":\\\"0\\\"}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 15:45:34,591] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/System\\\/getSystemSetting\\\/companyId\\\/1447247968\\\/type\\\/20\\\/token\\\/168beaa4bc0d74232023a2152fe3516e\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":{\\\"value\\\":\\\"1\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 15:45:34,682] [2676] RunTime: 0.0915 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Admin\\\/getAdminMsgCount\\\/status\\\/10\\\/token\\\/168beaa4bc0d74232023a2152fe3516e\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":\\\"0\\\"}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 15:47:06,386] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/System\\\/getSystemSetting\\\/companyId\\\/1447247968\\\/type\\\/20\\\/token\\\/168beaa4bc0d74232023a2152fe3516e\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":{\\\"value\\\":\\\"1\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 15:47:06,467] [2676] RunTime: 0.0810 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Admin\\\/getAdminMsgCount\\\/status\\\/10\\\/token\\\/168beaa4bc0d74232023a2152fe3516e\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":\\\"0\\\"}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 15:52:44,967] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/System\\\/getSystemSetting\\\/companyId\\\/1447247968\\\/type\\\/20\\\/token\\\/168beaa4bc0d74232023a2152fe3516e\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":{\\\"value\\\":\\\"1\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 15:52:45,046] [2676] RunTime: 0.0789 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Admin\\\/getAdminMsgCount\\\/status\\\/10\\\/token\\\/168beaa4bc0d74232023a2152fe3516e\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":\\\"0\\\"}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 15:54:25,416] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/System\\\/getSystemSetting\\\/companyId\\\/1447247968\\\/type\\\/20\\\/token\\\/168beaa4bc0d74232023a2152fe3516e\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":0,\\\"msg\\\":\\\"token\\\\u8fc7\\\\u671f\\\",\\\"status_code\\\":2001}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 15:54:25,597] [2676] RunTime: 0.1811 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Login\\\/refreshToken\\\/refreshToken\\\/ffb70d630f559a27b752cbb1ec460a54\\\/token\\\/168beaa4bc0d74232023a2152fe3516e\\\/type\\\/10\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"token\\\\u5237\\\\u65b0\\\\u6210\\\\u529f\\\",\\\"status_code\\\":2002,\\\"data\\\":{\\\"token\\\":\\\"f56a6c1af6f90b6d2aadd604107921a7\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 15:54:25,712] [2676] RunTime: 0.2964 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/System\\\/getSystemSetting\\\/companyId\\\/1447247968\\\/type\\\/20\\\/token\\\/f56a6c1af6f90b6d2aadd604107921a7\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":{\\\"value\\\":\\\"1\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 15:54:25,807] [2676] RunTime: 0.3912 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Admin\\\/getAdminMsgCount\\\/status\\\/10\\\/token\\\/f56a6c1af6f90b6d2aadd604107921a7\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":\\\"0\\\"}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 15:56:38,375] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/System\\\/getSystemSetting\\\/companyId\\\/1447247968\\\/type\\\/20\\\/token\\\/f56a6c1af6f90b6d2aadd604107921a7\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":{\\\"value\\\":\\\"1\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 15:56:38,477] [2676] RunTime: 0.1017 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Admin\\\/getAdminMsgCount\\\/status\\\/10\\\/token\\\/f56a6c1af6f90b6d2aadd604107921a7\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":\\\"0\\\"}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 15:56:44,181] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/System\\\/getSystemSetting\\\/companyId\\\/1447247968\\\/type\\\/20\\\/token\\\/f56a6c1af6f90b6d2aadd604107921a7\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":{\\\"value\\\":\\\"1\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 15:56:44,258] [2676] RunTime: 0.0775 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Admin\\\/getAdminMsgCount\\\/status\\\/10\\\/token\\\/f56a6c1af6f90b6d2aadd604107921a7\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":\\\"0\\\"}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 15:57:48,394] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/System\\\/getSystemSetting\\\/companyId\\\/1447247968\\\/type\\\/20\\\/token\\\/f56a6c1af6f90b6d2aadd604107921a7\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":{\\\"value\\\":\\\"1\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 15:57:49,715] [2676] RunTime: 1.3212 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Admin\\\/getAdminMsgCount\\\/status\\\/10\\\/token\\\/f56a6c1af6f90b6d2aadd604107921a7\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":\\\"0\\\"}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 15:57:55,550] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/System\\\/getSystemSetting\\\/companyId\\\/1447247968\\\/type\\\/20\\\/token\\\/f56a6c1af6f90b6d2aadd604107921a7\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":{\\\"value\\\":\\\"1\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 15:57:56,685] [2676] RunTime: 1.1344 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Admin\\\/getAdminMsgCount\\\/status\\\/10\\\/token\\\/f56a6c1af6f90b6d2aadd604107921a7\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":\\\"0\\\"}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 15:58:31,821] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/System\\\/getSystemSetting\\\/companyId\\\/1447247968\\\/type\\\/20\\\/token\\\/f56a6c1af6f90b6d2aadd604107921a7\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":{\\\"value\\\":\\\"1\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 15:58:31,907] [2676] RunTime: 0.0867 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Admin\\\/getAdminMsgCount\\\/status\\\/10\\\/token\\\/f56a6c1af6f90b6d2aadd604107921a7\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":\\\"0\\\"}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 15:58:53,272] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/System\\\/getSystemSetting\\\/companyId\\\/1447247968\\\/type\\\/20\\\/token\\\/f56a6c1af6f90b6d2aadd604107921a7\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":{\\\"value\\\":\\\"1\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 15:58:53,465] [2676] RunTime: 0.1929 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Admin\\\/getAdminMsgCount\\\/status\\\/10\\\/token\\\/f56a6c1af6f90b6d2aadd604107921a7\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":\\\"0\\\"}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 15:59:26,160] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/System\\\/getSystemSetting\\\/companyId\\\/1447247968\\\/type\\\/20\\\/token\\\/f56a6c1af6f90b6d2aadd604107921a7\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":{\\\"value\\\":\\\"1\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 15:59:26,249] [2676] RunTime: 0.0893 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Admin\\\/getAdminMsgCount\\\/status\\\/10\\\/token\\\/f56a6c1af6f90b6d2aadd604107921a7\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":\\\"0\\\"}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 15:59:50,700] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/System\\\/getSystemSetting\\\/companyId\\\/1447247968\\\/type\\\/20\\\/token\\\/f56a6c1af6f90b6d2aadd604107921a7\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":{\\\"value\\\":\\\"1\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 15:59:50,773] [2676] RunTime: 0.0725 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Admin\\\/getAdminMsgCount\\\/status\\\/10\\\/token\\\/f56a6c1af6f90b6d2aadd604107921a7\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":\\\"0\\\"}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 16:00:28,931] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/System\\\/getSystemSetting\\\/companyId\\\/1447247968\\\/type\\\/20\\\/token\\\/f56a6c1af6f90b6d2aadd604107921a7\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":{\\\"value\\\":\\\"1\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 16:00:29,689] [2676] RunTime: 0.7571 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Admin\\\/getAdminMsgCount\\\/status\\\/10\\\/token\\\/f56a6c1af6f90b6d2aadd604107921a7\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":\\\"0\\\"}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 16:01:04,356] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/System\\\/getSystemSetting\\\/companyId\\\/1447247968\\\/type\\\/20\\\/token\\\/f56a6c1af6f90b6d2aadd604107921a7\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":{\\\"value\\\":\\\"1\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 16:01:04,419] [2676] RunTime: 0.0633 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Admin\\\/getAdminMsgCount\\\/status\\\/10\\\/token\\\/f56a6c1af6f90b6d2aadd604107921a7\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":\\\"0\\\"}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 16:02:44,537] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/System\\\/getSystemSetting\\\/companyId\\\/1447247968\\\/type\\\/20\\\/token\\\/f56a6c1af6f90b6d2aadd604107921a7\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":{\\\"value\\\":\\\"1\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 16:02:44,855] [2676] RunTime: 0.3182 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Admin\\\/getAdminMsgCount\\\/status\\\/10\\\/token\\\/f56a6c1af6f90b6d2aadd604107921a7\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":\\\"0\\\"}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 16:04:09,833] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/System\\\/getSystemSetting\\\/companyId\\\/1447247968\\\/type\\\/20\\\/token\\\/f56a6c1af6f90b6d2aadd604107921a7\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":{\\\"value\\\":\\\"1\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 16:04:09,914] [2676] RunTime: 0.0805 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Admin\\\/getAdminMsgCount\\\/status\\\/10\\\/token\\\/f56a6c1af6f90b6d2aadd604107921a7\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":\\\"0\\\"}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 16:04:23,633] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/System\\\/getSystemSetting\\\/companyId\\\/1447247968\\\/type\\\/20\\\/token\\\/f56a6c1af6f90b6d2aadd604107921a7\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":{\\\"value\\\":\\\"1\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 16:04:23,718] [2676] RunTime: 0.0856 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Admin\\\/getAdminMsgCount\\\/status\\\/10\\\/token\\\/f56a6c1af6f90b6d2aadd604107921a7\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":\\\"0\\\"}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 16:11:54,242] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/System\\\/getSystemSetting\\\/companyId\\\/1447247968\\\/type\\\/20\\\/token\\\/f56a6c1af6f90b6d2aadd604107921a7\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":{\\\"value\\\":\\\"1\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 16:11:54,462] [2676] RunTime: 0.2193 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Admin\\\/getAdminMsgCount\\\/status\\\/10\\\/token\\\/f56a6c1af6f90b6d2aadd604107921a7\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":\\\"0\\\"}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 16:18:27,094] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/System\\\/getSystemSetting\\\/companyId\\\/1447247968\\\/type\\\/20\\\/token\\\/f56a6c1af6f90b6d2aadd604107921a7\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":{\\\"value\\\":\\\"1\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 16:18:27,175] [2676] RunTime: 0.0811 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Admin\\\/getAdminMsgCount\\\/status\\\/10\\\/token\\\/f56a6c1af6f90b6d2aadd604107921a7\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":\\\"0\\\"}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 16:20:29,656] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/System\\\/getSystemSetting\\\/companyId\\\/1447247968\\\/type\\\/20\\\/token\\\/f56a6c1af6f90b6d2aadd604107921a7\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":{\\\"value\\\":\\\"1\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 16:20:29,733] [2676] RunTime: 0.0762 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Admin\\\/getAdminMsgCount\\\/status\\\/10\\\/token\\\/f56a6c1af6f90b6d2aadd604107921a7\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":\\\"0\\\"}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 16:22:15,131] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/System\\\/getSystemSetting\\\/companyId\\\/1447247968\\\/type\\\/20\\\/token\\\/f56a6c1af6f90b6d2aadd604107921a7\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":{\\\"value\\\":\\\"1\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 16:22:15,401] [2676] RunTime: 0.2706 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Admin\\\/getAdminMsgCount\\\/status\\\/10\\\/token\\\/f56a6c1af6f90b6d2aadd604107921a7\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":\\\"0\\\"}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 16:24:44,453] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/System\\\/getSystemSetting\\\/companyId\\\/1447247968\\\/type\\\/20\\\/token\\\/f56a6c1af6f90b6d2aadd604107921a7\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":{\\\"value\\\":\\\"1\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 16:24:44,527] [2676] RunTime: 0.0740 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Admin\\\/getAdminMsgCount\\\/status\\\/10\\\/token\\\/f56a6c1af6f90b6d2aadd604107921a7\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":\\\"0\\\"}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 16:24:54,207] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/System\\\/getSystemSetting\\\/companyId\\\/1447247968\\\/type\\\/20\\\/token\\\/f56a6c1af6f90b6d2aadd604107921a7\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":{\\\"value\\\":\\\"1\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 16:24:54,304] [2676] RunTime: 0.0970 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Admin\\\/getAdminMsgCount\\\/status\\\/10\\\/token\\\/f56a6c1af6f90b6d2aadd604107921a7\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":\\\"0\\\"}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 16:27:00,734] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/System\\\/getSystemSetting\\\/companyId\\\/1447247968\\\/type\\\/20\\\/token\\\/f56a6c1af6f90b6d2aadd604107921a7\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":{\\\"value\\\":\\\"1\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 16:27:00,824] [2676] RunTime: 0.0893 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Admin\\\/getAdminMsgCount\\\/status\\\/10\\\/token\\\/f56a6c1af6f90b6d2aadd604107921a7\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":\\\"0\\\"}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 16:27:20,122] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/System\\\/getSystemSetting\\\/companyId\\\/1447247968\\\/type\\\/20\\\/token\\\/f56a6c1af6f90b6d2aadd604107921a7\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":{\\\"value\\\":\\\"1\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 16:27:20,207] [2676] RunTime: 0.0844 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Admin\\\/getAdminMsgCount\\\/status\\\/10\\\/token\\\/f56a6c1af6f90b6d2aadd604107921a7\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":\\\"0\\\"}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 16:28:02,267] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/System\\\/getSystemSetting\\\/companyId\\\/1447247968\\\/type\\\/20\\\/token\\\/f56a6c1af6f90b6d2aadd604107921a7\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":{\\\"value\\\":\\\"1\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 16:28:02,339] [2676] RunTime: 0.0715 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Admin\\\/getAdminMsgCount\\\/status\\\/10\\\/token\\\/f56a6c1af6f90b6d2aadd604107921a7\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":\\\"0\\\"}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 16:28:28,082] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/System\\\/getSystemSetting\\\/companyId\\\/\\\/type\\\/20\\\/token\\\/null\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":0,\\\"msg\\\":\\\"token\\\\u8fc7\\\\u671f\\\",\\\"status_code\\\":2001}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 16:28:28,344] [2676] RunTime: 0.2625 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Admin\\\/getAdminMsgCount\\\/status\\\/10\\\/token\\\/null\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":0,\\\"msg\\\":\\\"token\\\\u8fc7\\\\u671f\\\",\\\"status_code\\\":2001}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 16:28:38,594] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/login\\\/login\\\/account\\\/13161934946\\\/password\\\/123456\\\/type\\\/10\\\/token\\\/null\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u767b\\\\u5f55\\\\u6210\\\\u529f\\\",\\\"status_code\\\":3000,\\\"data\\\":{\\\"company_id\\\":\\\"1447247968\\\",\\\"name\\\":\\\"\\\\u6d4b\\\\u8bd5\\\\u516c\\\\u53f8\\\",\\\"account\\\":\\\"13161934946\\\",\\\"phone\\\":\\\"13161934946\\\",\\\"email\\\":\\\"123456789@qq.com\\\",\\\"password\\\":\\\"e10adc3949ba59abbe56e057f20f883e\\\",\\\"right\\\":\\\"1,100,110,120,200,210,220,300,310,320,400,410,420,430,500,510,520,600,610,620,700,710,2,1000,1010\\\",\\\"status\\\":\\\"10\\\",\\\"type\\\":\\\"20\\\",\\\"create_time\\\":\\\"1527487964\\\",\\\"create_user\\\":\\\"2517844598\\\",\\\"update_time\\\":\\\"1528868703\\\",\\\"update_user\\\":\\\"2517844598\\\",\\\"del_flg\\\":\\\"0\\\",\\\"token\\\":\\\"cbc2302ee0f63b0e7dd7f32dd14384e0\\\",\\\"refresh_token\\\":\\\"cbc2302ee0f63b0e7dd7f32dd14384e0\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 16:28:38,833] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Company\\\/checkStatus\\\/companyId\\\/1447247968\\\/token\\\/cbc2302ee0f63b0e7dd7f32dd14384e0\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6b63\\\\u5e38\\\",\\\"status_code\\\":1000,\\\"data\\\":{\\\"id\\\":\\\"1447247968\\\",\\\"name\\\":\\\"\\\\u6d4b\\\\u8bd5\\\\u516c\\\\u53f8\\\",\\\"phone\\\":\\\"13161934946\\\",\\\"email\\\":\\\"123456789@qq.com\\\",\\\"logo\\\":null,\\\"status\\\":\\\"10\\\",\\\"verify_status\\\":\\\"30\\\",\\\"create_time\\\":\\\"1527487964\\\",\\\"update_time\\\":\\\"1529992663\\\",\\\"create_user\\\":\\\"1447247968\\\",\\\"update_user\\\":\\\"1447247968\\\",\\\"del_flg\\\":\\\"0\\\",\\\"verify_status_str\\\":\\\"\\\\u5ba1\\\\u6838\\\\u901a\\\\u8fc7\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 16:28:39,194] [2676] RunTime: 0.3609 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/DrivingMonitor\\\/statBehavior\\\/companyId\\\/1447247968\\\/startTime\\\/1530433718\\\/endTime\\\/1533025718\\\/token\\\/cbc2302ee0f63b0e7dd7f32dd14384e0\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":[{\\\"count\\\":\\\"10\\\",\\\"code\\\":\\\"16\\\",\\\"code_text\\\":\\\"\\\\u906e\\\\u6321\\\\u76f8\\\\u673a\\\"}]}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 16:28:39,624] [2676] RunTime: 0.7916 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/System\\\/getSystemSetting\\\/companyId\\\/1447247968\\\/type\\\/20\\\/token\\\/cbc2302ee0f63b0e7dd7f32dd14384e0\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":{\\\"value\\\":\\\"1\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 16:28:39,892] [2676] RunTime: 1.0588 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Admin\\\/getAdminMsgCount\\\/status\\\/10\\\/token\\\/cbc2302ee0f63b0e7dd7f32dd14384e0\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":\\\"0\\\"}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 16:28:40,806] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/DrivingMonitor\\\/statByTimeGroup\\\/companyId\\\/1447247968\\\/startTime\\\/1532707200\\\/endTime\\\/1533052800\\\/token\\\/cbc2302ee0f63b0e7dd7f32dd14384e0\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":[]}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 16:28:42,148] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/System\\\/getSystemSetting\\\/companyId\\\/1447247968\\\/type\\\/20\\\/token\\\/cbc2302ee0f63b0e7dd7f32dd14384e0\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":{\\\"value\\\":\\\"1\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 16:28:42,228] [2676] RunTime: 0.0798 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Admin\\\/getAdminMsgCount\\\/status\\\/10\\\/token\\\/cbc2302ee0f63b0e7dd7f32dd14384e0\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":\\\"0\\\"}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 16:32:34,141] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/System\\\/getSystemSetting\\\/companyId\\\/1447247968\\\/type\\\/20\\\/token\\\/f56a6c1af6f90b6d2aadd604107921a7\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":0,\\\"msg\\\":\\\"\\\\u5df2\\\\u5728\\\\u5176\\\\u4ed6\\\\u8bbe\\\\u5907\\\\u4e0a\\\\u767b\\\\u5f55\\\",\\\"status_code\\\":4029}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 16:32:34,202] [2676] RunTime: 0.0606 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Admin\\\/getAdminMsgCount\\\/status\\\/10\\\/token\\\/f56a6c1af6f90b6d2aadd604107921a7\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":0,\\\"msg\\\":\\\"\\\\u5df2\\\\u5728\\\\u5176\\\\u4ed6\\\\u8bbe\\\\u5907\\\\u4e0a\\\\u767b\\\\u5f55\\\",\\\"status_code\\\":4029}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 16:32:52,617] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/System\\\/getSystemSetting\\\/companyId\\\/\\\/type\\\/20\\\/token\\\/null\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":0,\\\"msg\\\":\\\"token\\\\u8fc7\\\\u671f\\\",\\\"status_code\\\":2001}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 16:32:52,665] [2676] RunTime: 0.0485 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Admin\\\/getAdminMsgCount\\\/status\\\/10\\\/token\\\/null\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":0,\\\"msg\\\":\\\"token\\\\u8fc7\\\\u671f\\\",\\\"status_code\\\":2001}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 16:33:01,700] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/login\\\/login\\\/account\\\/13161934946\\\/password\\\/123456\\\/type\\\/10\\\/token\\\/null\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u767b\\\\u5f55\\\\u6210\\\\u529f\\\",\\\"status_code\\\":3000,\\\"data\\\":{\\\"company_id\\\":\\\"1447247968\\\",\\\"name\\\":\\\"\\\\u6d4b\\\\u8bd5\\\\u516c\\\\u53f8\\\",\\\"account\\\":\\\"13161934946\\\",\\\"phone\\\":\\\"13161934946\\\",\\\"email\\\":\\\"123456789@qq.com\\\",\\\"password\\\":\\\"e10adc3949ba59abbe56e057f20f883e\\\",\\\"right\\\":\\\"1,100,110,120,200,210,220,300,310,320,400,410,420,430,500,510,520,600,610,620,700,710,2,1000,1010\\\",\\\"status\\\":\\\"10\\\",\\\"type\\\":\\\"20\\\",\\\"create_time\\\":\\\"1527487964\\\",\\\"create_user\\\":\\\"2517844598\\\",\\\"update_time\\\":\\\"1528868703\\\",\\\"update_user\\\":\\\"2517844598\\\",\\\"del_flg\\\":\\\"0\\\",\\\"token\\\":\\\"7ae828afd8cedd387f140c2c7f463cff\\\",\\\"refresh_token\\\":\\\"7ae828afd8cedd387f140c2c7f463cff\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 16:33:01,857] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Company\\\/checkStatus\\\/companyId\\\/1447247968\\\/token\\\/7ae828afd8cedd387f140c2c7f463cff\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6b63\\\\u5e38\\\",\\\"status_code\\\":1000,\\\"data\\\":{\\\"id\\\":\\\"1447247968\\\",\\\"name\\\":\\\"\\\\u6d4b\\\\u8bd5\\\\u516c\\\\u53f8\\\",\\\"phone\\\":\\\"13161934946\\\",\\\"email\\\":\\\"123456789@qq.com\\\",\\\"logo\\\":null,\\\"status\\\":\\\"10\\\",\\\"verify_status\\\":\\\"30\\\",\\\"create_time\\\":\\\"1527487964\\\",\\\"update_time\\\":\\\"1529992663\\\",\\\"create_user\\\":\\\"1447247968\\\",\\\"update_user\\\":\\\"1447247968\\\",\\\"del_flg\\\":\\\"0\\\",\\\"verify_status_str\\\":\\\"\\\\u5ba1\\\\u6838\\\\u901a\\\\u8fc7\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 16:33:01,938] [2676] RunTime: 0.0816 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/DrivingMonitor\\\/statBehavior\\\/companyId\\\/1447247968\\\/startTime\\\/1530433981\\\/endTime\\\/1533025981\\\/token\\\/7ae828afd8cedd387f140c2c7f463cff\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":[{\\\"count\\\":\\\"10\\\",\\\"code\\\":\\\"16\\\",\\\"code_text\\\":\\\"\\\\u906e\\\\u6321\\\\u76f8\\\\u673a\\\"}]}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 16:33:02,013] [2676] RunTime: 0.1558 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/System\\\/getSystemSetting\\\/companyId\\\/1447247968\\\/type\\\/20\\\/token\\\/7ae828afd8cedd387f140c2c7f463cff\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":{\\\"value\\\":\\\"1\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 16:33:02,103] [2676] RunTime: 0.2461 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Admin\\\/getAdminMsgCount\\\/status\\\/10\\\/token\\\/7ae828afd8cedd387f140c2c7f463cff\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":\\\"0\\\"}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 16:33:02,654] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/DrivingMonitor\\\/statByTimeGroup\\\/companyId\\\/1447247968\\\/startTime\\\/1532707200\\\/endTime\\\/1533052800\\\/token\\\/7ae828afd8cedd387f140c2c7f463cff\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":[]}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 16:33:03,856] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/System\\\/getSystemSetting\\\/companyId\\\/1447247968\\\/type\\\/20\\\/token\\\/7ae828afd8cedd387f140c2c7f463cff\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":{\\\"value\\\":\\\"1\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 16:33:03,938] [2676] RunTime: 0.0819 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Admin\\\/getAdminMsgCount\\\/status\\\/10\\\/token\\\/7ae828afd8cedd387f140c2c7f463cff\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":\\\"0\\\"}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 16:34:53,191] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/System\\\/getSystemSetting\\\/companyId\\\/1447247968\\\/type\\\/20\\\/token\\\/cbc2302ee0f63b0e7dd7f32dd14384e0\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":0,\\\"msg\\\":\\\"\\\\u5df2\\\\u5728\\\\u5176\\\\u4ed6\\\\u8bbe\\\\u5907\\\\u4e0a\\\\u767b\\\\u5f55\\\",\\\"status_code\\\":4029}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 16:34:53,236] [2676] RunTime: 0.0454 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Admin\\\/getAdminMsgCount\\\/status\\\/10\\\/token\\\/cbc2302ee0f63b0e7dd7f32dd14384e0\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":0,\\\"msg\\\":\\\"\\\\u5df2\\\\u5728\\\\u5176\\\\u4ed6\\\\u8bbe\\\\u5907\\\\u4e0a\\\\u767b\\\\u5f55\\\",\\\"status_code\\\":4029}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 16:35:13,612] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/System\\\/getSystemSetting\\\/companyId\\\/\\\/type\\\/20\\\/token\\\/null\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":0,\\\"msg\\\":\\\"token\\\\u8fc7\\\\u671f\\\",\\\"status_code\\\":2001}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 16:35:13,657] [2676] RunTime: 0.0453 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Admin\\\/getAdminMsgCount\\\/status\\\/10\\\/token\\\/null\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":0,\\\"msg\\\":\\\"token\\\\u8fc7\\\\u671f\\\",\\\"status_code\\\":2001}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 16:35:22,473] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/login\\\/login\\\/account\\\/13161934946\\\/password\\\/123456\\\/type\\\/10\\\/token\\\/null\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u767b\\\\u5f55\\\\u6210\\\\u529f\\\",\\\"status_code\\\":3000,\\\"data\\\":{\\\"company_id\\\":\\\"1447247968\\\",\\\"name\\\":\\\"\\\\u6d4b\\\\u8bd5\\\\u516c\\\\u53f8\\\",\\\"account\\\":\\\"13161934946\\\",\\\"phone\\\":\\\"13161934946\\\",\\\"email\\\":\\\"123456789@qq.com\\\",\\\"password\\\":\\\"e10adc3949ba59abbe56e057f20f883e\\\",\\\"right\\\":\\\"1,100,110,120,200,210,220,300,310,320,400,410,420,430,500,510,520,600,610,620,700,710,2,1000,1010\\\",\\\"status\\\":\\\"10\\\",\\\"type\\\":\\\"20\\\",\\\"create_time\\\":\\\"1527487964\\\",\\\"create_user\\\":\\\"2517844598\\\",\\\"update_time\\\":\\\"1528868703\\\",\\\"update_user\\\":\\\"2517844598\\\",\\\"del_flg\\\":\\\"0\\\",\\\"token\\\":\\\"62214869922c50ee8ef033af0be75e4d\\\",\\\"refresh_token\\\":\\\"62214869922c50ee8ef033af0be75e4d\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 16:35:22,637] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Company\\\/checkStatus\\\/companyId\\\/1447247968\\\/token\\\/62214869922c50ee8ef033af0be75e4d\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6b63\\\\u5e38\\\",\\\"status_code\\\":1000,\\\"data\\\":{\\\"id\\\":\\\"1447247968\\\",\\\"name\\\":\\\"\\\\u6d4b\\\\u8bd5\\\\u516c\\\\u53f8\\\",\\\"phone\\\":\\\"13161934946\\\",\\\"email\\\":\\\"123456789@qq.com\\\",\\\"logo\\\":null,\\\"status\\\":\\\"10\\\",\\\"verify_status\\\":\\\"30\\\",\\\"create_time\\\":\\\"1527487964\\\",\\\"update_time\\\":\\\"1529992663\\\",\\\"create_user\\\":\\\"1447247968\\\",\\\"update_user\\\":\\\"1447247968\\\",\\\"del_flg\\\":\\\"0\\\",\\\"verify_status_str\\\":\\\"\\\\u5ba1\\\\u6838\\\\u901a\\\\u8fc7\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 16:35:22,712] [2676] RunTime: 0.0752 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/DrivingMonitor\\\/statBehavior\\\/companyId\\\/1447247968\\\/startTime\\\/1530434122\\\/endTime\\\/1533026122\\\/token\\\/62214869922c50ee8ef033af0be75e4d\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":[{\\\"count\\\":\\\"10\\\",\\\"code\\\":\\\"16\\\",\\\"code_text\\\":\\\"\\\\u906e\\\\u6321\\\\u76f8\\\\u673a\\\"}]}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 16:35:22,803] [2676] RunTime: 0.1660 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/System\\\/getSystemSetting\\\/companyId\\\/1447247968\\\/type\\\/20\\\/token\\\/62214869922c50ee8ef033af0be75e4d\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":{\\\"value\\\":\\\"1\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 16:35:22,916] [2676] RunTime: 0.2787 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Admin\\\/getAdminMsgCount\\\/status\\\/10\\\/token\\\/62214869922c50ee8ef033af0be75e4d\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":\\\"0\\\"}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 16:35:23,541] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/DrivingMonitor\\\/statByTimeGroup\\\/companyId\\\/1447247968\\\/startTime\\\/1532707200\\\/endTime\\\/1533052800\\\/token\\\/62214869922c50ee8ef033af0be75e4d\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":[]}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 16:35:25,131] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/System\\\/getSystemSetting\\\/companyId\\\/1447247968\\\/type\\\/20\\\/token\\\/62214869922c50ee8ef033af0be75e4d\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":{\\\"value\\\":\\\"1\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 16:35:25,214] [2676] RunTime: 0.0829 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Admin\\\/getAdminMsgCount\\\/status\\\/10\\\/token\\\/62214869922c50ee8ef033af0be75e4d\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":\\\"0\\\"}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 16:37:20,465] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/System\\\/getSystemSetting\\\/companyId\\\/1447247968\\\/type\\\/20\\\/token\\\/7ae828afd8cedd387f140c2c7f463cff\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":0,\\\"msg\\\":\\\"\\\\u5df2\\\\u5728\\\\u5176\\\\u4ed6\\\\u8bbe\\\\u5907\\\\u4e0a\\\\u767b\\\\u5f55\\\",\\\"status_code\\\":4029}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 16:37:20,812] [2676] RunTime: 0.3470 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Admin\\\/getAdminMsgCount\\\/status\\\/10\\\/token\\\/7ae828afd8cedd387f140c2c7f463cff\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":0,\\\"msg\\\":\\\"\\\\u5df2\\\\u5728\\\\u5176\\\\u4ed6\\\\u8bbe\\\\u5907\\\\u4e0a\\\\u767b\\\\u5f55\\\",\\\"status_code\\\":4029}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 16:37:45,618] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/System\\\/getSystemSetting\\\/companyId\\\/\\\/type\\\/20\\\/token\\\/null\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":0,\\\"msg\\\":\\\"token\\\\u8fc7\\\\u671f\\\",\\\"status_code\\\":2001}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 16:37:45,667] [2676] RunTime: 0.0490 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Admin\\\/getAdminMsgCount\\\/status\\\/10\\\/token\\\/null\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":0,\\\"msg\\\":\\\"token\\\\u8fc7\\\\u671f\\\",\\\"status_code\\\":2001}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 16:37:52,985] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/login\\\/login\\\/account\\\/13161934946\\\/password\\\/123456\\\/type\\\/10\\\/token\\\/null\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u767b\\\\u5f55\\\\u6210\\\\u529f\\\",\\\"status_code\\\":3000,\\\"data\\\":{\\\"company_id\\\":\\\"1447247968\\\",\\\"name\\\":\\\"\\\\u6d4b\\\\u8bd5\\\\u516c\\\\u53f8\\\",\\\"account\\\":\\\"13161934946\\\",\\\"phone\\\":\\\"13161934946\\\",\\\"email\\\":\\\"123456789@qq.com\\\",\\\"password\\\":\\\"e10adc3949ba59abbe56e057f20f883e\\\",\\\"right\\\":\\\"1,100,110,120,200,210,220,300,310,320,400,410,420,430,500,510,520,600,610,620,700,710,2,1000,1010\\\",\\\"status\\\":\\\"10\\\",\\\"type\\\":\\\"20\\\",\\\"create_time\\\":\\\"1527487964\\\",\\\"create_user\\\":\\\"2517844598\\\",\\\"update_time\\\":\\\"1528868703\\\",\\\"update_user\\\":\\\"2517844598\\\",\\\"del_flg\\\":\\\"0\\\",\\\"token\\\":\\\"0a782d4d8d8a632ff3bb8f5686bc7193\\\",\\\"refresh_token\\\":\\\"0a782d4d8d8a632ff3bb8f5686bc7193\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 16:37:53,267] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Company\\\/checkStatus\\\/companyId\\\/1447247968\\\/token\\\/0a782d4d8d8a632ff3bb8f5686bc7193\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6b63\\\\u5e38\\\",\\\"status_code\\\":1000,\\\"data\\\":{\\\"id\\\":\\\"1447247968\\\",\\\"name\\\":\\\"\\\\u6d4b\\\\u8bd5\\\\u516c\\\\u53f8\\\",\\\"phone\\\":\\\"13161934946\\\",\\\"email\\\":\\\"123456789@qq.com\\\",\\\"logo\\\":null,\\\"status\\\":\\\"10\\\",\\\"verify_status\\\":\\\"30\\\",\\\"create_time\\\":\\\"1527487964\\\",\\\"update_time\\\":\\\"1529992663\\\",\\\"create_user\\\":\\\"1447247968\\\",\\\"update_user\\\":\\\"1447247968\\\",\\\"del_flg\\\":\\\"0\\\",\\\"verify_status_str\\\":\\\"\\\\u5ba1\\\\u6838\\\\u901a\\\\u8fc7\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 16:37:53,360] [2676] RunTime: 0.0927 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/DrivingMonitor\\\/statBehavior\\\/companyId\\\/1447247968\\\/startTime\\\/1530434273\\\/endTime\\\/1533026273\\\/token\\\/0a782d4d8d8a632ff3bb8f5686bc7193\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":[{\\\"count\\\":\\\"10\\\",\\\"code\\\":\\\"16\\\",\\\"code_text\\\":\\\"\\\\u906e\\\\u6321\\\\u76f8\\\\u673a\\\"}]}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 16:37:53,464] [2676] RunTime: 0.1973 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/System\\\/getSystemSetting\\\/companyId\\\/1447247968\\\/type\\\/20\\\/token\\\/0a782d4d8d8a632ff3bb8f5686bc7193\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":{\\\"value\\\":\\\"1\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 16:37:53,546] [2676] RunTime: 0.2787 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Admin\\\/getAdminMsgCount\\\/status\\\/10\\\/token\\\/0a782d4d8d8a632ff3bb8f5686bc7193\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":\\\"0\\\"}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 16:37:53,989] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/DrivingMonitor\\\/statByTimeGroup\\\/companyId\\\/1447247968\\\/startTime\\\/1532707200\\\/endTime\\\/1533052800\\\/token\\\/0a782d4d8d8a632ff3bb8f5686bc7193\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":[]}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 16:37:55,349] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/System\\\/getSystemSetting\\\/companyId\\\/1447247968\\\/type\\\/20\\\/token\\\/0a782d4d8d8a632ff3bb8f5686bc7193\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":{\\\"value\\\":\\\"1\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 16:37:55,434] [2676] RunTime: 0.0844 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Admin\\\/getAdminMsgCount\\\/status\\\/10\\\/token\\\/0a782d4d8d8a632ff3bb8f5686bc7193\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":\\\"0\\\"}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 16:38:11,651] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/System\\\/getSystemSetting\\\/companyId\\\/1447247968\\\/type\\\/20\\\/token\\\/0a782d4d8d8a632ff3bb8f5686bc7193\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":{\\\"value\\\":\\\"1\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 16:38:11,744] [2676] RunTime: 0.0930 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Admin\\\/getAdminMsgCount\\\/status\\\/10\\\/token\\\/0a782d4d8d8a632ff3bb8f5686bc7193\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":\\\"0\\\"}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 16:38:15,172] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/System\\\/getSystemSetting\\\/companyId\\\/1447247968\\\/type\\\/20\\\/token\\\/0a782d4d8d8a632ff3bb8f5686bc7193\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":{\\\"value\\\":\\\"1\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 16:38:15,265] [2676] RunTime: 0.0929 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Admin\\\/getAdminMsgCount\\\/status\\\/10\\\/token\\\/0a782d4d8d8a632ff3bb8f5686bc7193\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":\\\"0\\\"}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 16:39:07,997] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/System\\\/getSystemSetting\\\/companyId\\\/1447247968\\\/type\\\/20\\\/token\\\/0a782d4d8d8a632ff3bb8f5686bc7193\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":{\\\"value\\\":\\\"1\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 16:39:08,094] [2676] RunTime: 0.0975 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Admin\\\/getAdminMsgCount\\\/status\\\/10\\\/token\\\/0a782d4d8d8a632ff3bb8f5686bc7193\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":\\\"0\\\"}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 16:39:32,523] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/System\\\/getSystemSetting\\\/companyId\\\/1447247968\\\/type\\\/20\\\/token\\\/0a782d4d8d8a632ff3bb8f5686bc7193\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":{\\\"value\\\":\\\"1\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 16:39:32,823] [2676] RunTime: 0.3001 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Admin\\\/getAdminMsgCount\\\/status\\\/10\\\/token\\\/0a782d4d8d8a632ff3bb8f5686bc7193\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":\\\"0\\\"}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 16:51:24,806] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/System\\\/getSystemSetting\\\/companyId\\\/1447247968\\\/type\\\/20\\\/token\\\/0a782d4d8d8a632ff3bb8f5686bc7193\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":{\\\"value\\\":\\\"1\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 16:51:25,126] [2676] RunTime: 0.3204 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Admin\\\/getAdminMsgCount\\\/status\\\/10\\\/token\\\/0a782d4d8d8a632ff3bb8f5686bc7193\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":\\\"0\\\"}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 16:51:25,781] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/System\\\/getSystemSetting\\\/companyId\\\/1447247968\\\/type\\\/20\\\/token\\\/0a782d4d8d8a632ff3bb8f5686bc7193\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":{\\\"value\\\":\\\"1\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 16:51:25,878] [2676] RunTime: 0.0971 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Admin\\\/getAdminMsgCount\\\/status\\\/10\\\/token\\\/0a782d4d8d8a632ff3bb8f5686bc7193\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":\\\"0\\\"}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 16:51:34,224] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/System\\\/getSystemSetting\\\/companyId\\\/1447247968\\\/type\\\/20\\\/token\\\/0a782d4d8d8a632ff3bb8f5686bc7193\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":{\\\"value\\\":\\\"1\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 16:51:34,314] [2676] RunTime: 0.0901 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Admin\\\/getAdminMsgCount\\\/status\\\/10\\\/token\\\/0a782d4d8d8a632ff3bb8f5686bc7193\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":\\\"0\\\"}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 17:06:11,274] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/System\\\/getSystemSetting\\\/companyId\\\/1447247968\\\/type\\\/20\\\/token\\\/0a782d4d8d8a632ff3bb8f5686bc7193\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":{\\\"value\\\":\\\"1\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 17:06:11,409] [2676] RunTime: 0.1349 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Admin\\\/getAdminMsgCount\\\/status\\\/10\\\/token\\\/0a782d4d8d8a632ff3bb8f5686bc7193\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":\\\"0\\\"}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 17:08:00,612] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/System\\\/getSystemSetting\\\/companyId\\\/1447247968\\\/type\\\/20\\\/token\\\/0a782d4d8d8a632ff3bb8f5686bc7193\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":{\\\"value\\\":\\\"1\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 17:08:00,686] [2676] RunTime: 0.0737 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Admin\\\/getAdminMsgCount\\\/status\\\/10\\\/token\\\/0a782d4d8d8a632ff3bb8f5686bc7193\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":\\\"0\\\"}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 17:08:43,040] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/System\\\/getSystemSetting\\\/companyId\\\/1447247968\\\/type\\\/20\\\/token\\\/0a782d4d8d8a632ff3bb8f5686bc7193\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":{\\\"value\\\":\\\"1\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 17:08:43,128] [2676] RunTime: 0.0880 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Admin\\\/getAdminMsgCount\\\/status\\\/10\\\/token\\\/0a782d4d8d8a632ff3bb8f5686bc7193\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":\\\"0\\\"}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 17:09:27,748] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/System\\\/getSystemSetting\\\/companyId\\\/1447247968\\\/type\\\/20\\\/token\\\/0a782d4d8d8a632ff3bb8f5686bc7193\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":{\\\"value\\\":\\\"1\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 17:09:27,820] [2676] RunTime: 0.0719 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Admin\\\/getAdminMsgCount\\\/status\\\/10\\\/token\\\/0a782d4d8d8a632ff3bb8f5686bc7193\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":\\\"0\\\"}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 17:13:24,766] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/System\\\/getSystemSetting\\\/companyId\\\/1447247968\\\/type\\\/20\\\/token\\\/0a782d4d8d8a632ff3bb8f5686bc7193\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":{\\\"value\\\":\\\"1\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 17:13:24,844] [2676] RunTime: 0.0776 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Admin\\\/getAdminMsgCount\\\/status\\\/10\\\/token\\\/0a782d4d8d8a632ff3bb8f5686bc7193\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":\\\"0\\\"}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 17:14:28,503] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/System\\\/getSystemSetting\\\/companyId\\\/1447247968\\\/type\\\/20\\\/token\\\/0a782d4d8d8a632ff3bb8f5686bc7193\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":{\\\"value\\\":\\\"1\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 17:14:28,577] [2676] RunTime: 0.0743 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Admin\\\/getAdminMsgCount\\\/status\\\/10\\\/token\\\/0a782d4d8d8a632ff3bb8f5686bc7193\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":\\\"0\\\"}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 17:15:56,093] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/System\\\/getSystemSetting\\\/companyId\\\/1447247968\\\/type\\\/20\\\/token\\\/0a782d4d8d8a632ff3bb8f5686bc7193\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":{\\\"value\\\":\\\"1\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 17:15:56,171] [2676] RunTime: 0.0777 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Admin\\\/getAdminMsgCount\\\/status\\\/10\\\/token\\\/0a782d4d8d8a632ff3bb8f5686bc7193\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":\\\"0\\\"}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 17:26:12,194] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/System\\\/getSystemSetting\\\/companyId\\\/1447247968\\\/type\\\/20\\\/token\\\/0a782d4d8d8a632ff3bb8f5686bc7193\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":{\\\"value\\\":\\\"1\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 17:26:12,276] [2676] RunTime: 0.0823 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Admin\\\/getAdminMsgCount\\\/status\\\/10\\\/token\\\/0a782d4d8d8a632ff3bb8f5686bc7193\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":\\\"0\\\"}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 17:46:57,358] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/System\\\/getSystemSetting\\\/companyId\\\/1447247968\\\/type\\\/20\\\/token\\\/0a782d4d8d8a632ff3bb8f5686bc7193\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":{\\\"value\\\":\\\"1\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 17:46:57,439] [2676] RunTime: 0.0808 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Admin\\\/getAdminMsgCount\\\/status\\\/10\\\/token\\\/0a782d4d8d8a632ff3bb8f5686bc7193\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":\\\"0\\\"}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 17:52:19,120] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/System\\\/getSystemSetting\\\/companyId\\\/1447247968\\\/type\\\/20\\\/token\\\/0a782d4d8d8a632ff3bb8f5686bc7193\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":{\\\"value\\\":\\\"1\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 17:52:19,199] [2676] RunTime: 0.0781 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Admin\\\/getAdminMsgCount\\\/status\\\/10\\\/token\\\/0a782d4d8d8a632ff3bb8f5686bc7193\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":\\\"0\\\"}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 17:53:03,718] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/System\\\/getSystemSetting\\\/companyId\\\/1447247968\\\/type\\\/20\\\/token\\\/0a782d4d8d8a632ff3bb8f5686bc7193\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":{\\\"value\\\":\\\"1\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 17:53:03,804] [2676] RunTime: 0.0863 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Admin\\\/getAdminMsgCount\\\/status\\\/10\\\/token\\\/0a782d4d8d8a632ff3bb8f5686bc7193\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":\\\"0\\\"}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 17:59:04,102] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/System\\\/getSystemSetting\\\/companyId\\\/1447247968\\\/type\\\/20\\\/token\\\/0a782d4d8d8a632ff3bb8f5686bc7193\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":{\\\"value\\\":\\\"1\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 17:59:04,181] [2676] RunTime: 0.0794 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Admin\\\/getAdminMsgCount\\\/status\\\/10\\\/token\\\/0a782d4d8d8a632ff3bb8f5686bc7193\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":\\\"0\\\"}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 18:08:01,993] [2676] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/System\\\/getSystemSetting\\\/companyId\\\/1447247968\\\/type\\\/20\\\/token\\\/0a782d4d8d8a632ff3bb8f5686bc7193\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":{\\\"value\\\":\\\"1\\\"}}\",\"response_errorMessage\":null}","topic":""}
+[2018-07-31 18:08:02,192] [2676] RunTime: 0.1983 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Admin\\\/getAdminMsgCount\\\/status\\\/10\\\/token\\\/0a782d4d8d8a632ff3bb8f5686bc7193\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":1,\\\"msg\\\":\\\"\\\\u67e5\\\\u8be2\\\\u6210\\\\u529f\\\",\\\"status_code\\\":4025,\\\"data\\\":\\\"0\\\"}\",\"response_errorMessage\":null}","topic":""}

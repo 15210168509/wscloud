@@ -1,0 +1,8 @@
+[2019-01-18 09:12:56,440] [16084] RunTime: 0.0000 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/System\\\/getSystemSetting\\\/companyId\\\/\\\/type\\\/20\\\/token\\\/null\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":0,\\\"msg\\\":\\\"token\\\\u8fc7\\\\u671f\\\",\\\"status_code\\\":2001}\",\"response_errorMessage\":null}","topic":""}
+[2019-01-18 09:12:56,545] [16084] RunTime: 0.1054 s
+ - INFO 
+ - RestClient.doGet(D:\wamp\www\wscloud\backoffice\ThinkPHP\Library\Vendor\ApiGateway\RestClient.php:49)
+ - {"message":"rest client","data":"{\"request_host\":\"http:\\\/\\\/localhost:133\\\/Home\",\"request_path\":\"\\\/Admin\\\/getAdminMsgCount\\\/status\\\/10\\\/token\\\/null\",\"request_method\":\"GET\",\"request_bodys\":[],\"response_code\":200,\"response_body\":\"{\\\"code\\\":0,\\\"msg\\\":\\\"token\\\\u8fc7\\\\u671f\\\",\\\"status_code\\\":2001}\",\"response_errorMessage\":null}","topic":""}
